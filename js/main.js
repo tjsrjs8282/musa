@@ -70,3 +70,11 @@
 			$(".close").toggleClass("active");
 			$(".mobileMenuWrap").toggleClass("active");
 		});
+
+		$(".tvLeftImg,.tvRightImg").click(function(){
+			$(".tvModalWrap").addClass("active");
+		});
+
+		$(".mdalblack,.mdalClose").click(function(){
+			$(".tvModalWrap").removeClass("active");
+		});
