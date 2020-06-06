@@ -116,7 +116,6 @@ span {display: block;}
 .tvRightTxtWrap p {font-weight: bold; padding: 0 0 50px 0;}
 .tvRightTxtWrap a {font-size: 1.1em; color: #585858; padding: 8px 25px; border: 1px solid #585858; border-radius: 50px; transition: 0.3s ease;}
 .tvRightTxtWrap a:hover {background-color: #585858; color: #fff}
-
 .tvModalWrap{position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999; display: none;}
 .tvModalWrap.active{display:block;}
 .mdalblack{cursor: pointer; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color:rgba(0,0,0,0.85);}
@@ -127,7 +126,6 @@ span {display: block;}
 .mdalClose span{width: 5px; height: 50px; background-color: #fff; position: absolute; top: 0;left: 23px; transition: 0.3s ease;}
 .mdalClose span:nth-child(1){transform: rotate(-45deg);}
 .mdalClose span:nth-child(2){transform: rotate(45deg);}
-
 .instaSlider {width: 100%; padding: 30px 0 20px 0;}
 .instaId {line-height: 50px; width: 100%; height: 50px; position: absolute; bottom: 0; background-color: rgba(0,0,0,0.6);}
 .instaId p {float: left; padding-left: 10px; color:rgba(255,255,255,0.7); font-size: 1.1rem; transition: 0.2s ease;}
@@ -175,6 +173,8 @@ footer {width: 100%; height: 450px; background-color: #000; color:#585858;}
 /*------------------swiper----------------*/
 .swiper-pagination-bullet {width: 10px; height: 10px;}
 .swiper-pagination-bullet-active {background:#000;}
+
+.swiper-button-next, .swiper-button-prev{top: 44%;background-size: 47px 53px; width: 38px; height: 55px;}
 /*------------------swiper----------------*/
 
 /*------------------media query----------------*/

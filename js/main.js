@@ -1,11 +1,11 @@
 		var mySwiper = new Swiper('.mainSlider .swiper-container',{
+			autoplay:{
+				  	delay:3000,
+				  	},
 			speed:1000,
 			loop: true,
 			slidesPerView:4,
 			centeredSlides:true,
-			autoplay: {
-			    delay: 3000,
-			  },
 		 	pagination: {
 		    el: '.swiper-pagination',
 		    clickable: true,
@@ -17,13 +17,19 @@
 		        },
 		      }
 		}); 
-
 		var mySwiper = new Swiper('.productSlider .swiper-container',{
-			speed:1000,
+			autoplay:{
+				  	delay:3000,
+				  	},
+			speed:600,
 			loop: true,
 			slidesPerView:4,
-			slideToclickedslide:true,
+			navigation:true,
 			spaceBetween: 40,
+			navigation: {
+			        nextEl: '.swiper-button-next',
+			        prevEl: '.swiper-button-prev',
+			      },
 		    breakpoints: {
 		        1020: {
 		          slidesPerView: 2,
@@ -43,7 +49,7 @@
 			centeredSlides:true,
 			spaceBetween: 20,
 			autoplay: {
-			    delay: 5000,
+			    delay: 3000,
 			  },
 		    breakpoints: {
 		    	1400: {
@@ -52,7 +58,7 @@
 		        },
 		        1020: {
 		          slidesPerView: 4,
-		          spaceBetween: 10,
+		          spaceBetween: 2,
 		        },
 		        720:{
 		          slidesPerView: 2,	
